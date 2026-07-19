@@ -4,6 +4,22 @@ const PAGE_URL = "https://codexgq.lovable.app/";
 const META_DESCRIPTION =
   "codexgq, Inc. is a venture builder and M&A advisor creating liquid AI-assets and SaaS solutions engineered for Tier-1 corporate integration since 2014.";
 
+const ORGANATION_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "codexgq, Inc.",
+  alternateName: "codexgq",
+  url: PAGE_URL,
+  description: META_DESCRIPTION,
+  email: "info@codex.gq",
+  sameAs: [
+    "https://www.linkedin.com/company/codexgq/",
+    "https://github.com/codexgq",
+  ],
+  foundingDate: "2014",
+  areaServed: ["Russia", "Netherlands"],
+};
+
 export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
@@ -16,6 +32,12 @@ export const Route = createFileRoute("/")({
       { property: "og:type", content: "website" },
     ],
     links: [{ rel: "canonical", href: PAGE_URL }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify(ORGANATION_SCHEMA),
+      },
+    ],
   }),
 });
 
