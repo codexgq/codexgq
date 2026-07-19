@@ -58,6 +58,13 @@ function Index() {
         .cgq-page section#services {
           scroll-margin-top: 0;
         }
+        @media (max-width: 767.98px) {
+          .cgq-page section[id],
+          .cgq-page section#services,
+          .cgq-page header[id] {
+            scroll-margin-top: 72px;
+          }
+        }
         .cgq-page h1, .cgq-page h2, .cgq-page h3, .cgq-page .display-3, .cgq-page .display-4, .cgq-page .display-5 {
           font-family: 'Space Grotesk', 'Inter', sans-serif;
           letter-spacing: -0.02em;
