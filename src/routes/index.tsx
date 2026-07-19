@@ -50,6 +50,10 @@ function Index() {
           color: #0b1220;
           background: #ffffff;
           overflow-x: hidden;
+          scroll-behavior: smooth;
+        }
+        .cgq-page section[id], .cgq-page header[id] {
+          scroll-margin-top: 90px;
         }
         .cgq-page h1, .cgq-page h2, .cgq-page h3, .cgq-page .display-3, .cgq-page .display-4, .cgq-page .display-5 {
           font-family: 'Space Grotesk', 'Inter', sans-serif;
