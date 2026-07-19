@@ -413,7 +413,7 @@ function Index() {
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6">
-              <span className="cgq-eyebrow">About codexgq</span>
+              <span className="cgq-eyebrow">About us</span>
               <h2 className="cgq-section-title mt-3">A small team, a compounding portfolio.</h2>
               <p className="cgq-lead mt-3">
                 Founded in 2014, codexgq, Inc. operates as a digital incubator and venture builder across B2B, B2C, and B2G sectors — with a focus on SaaS and AI.
