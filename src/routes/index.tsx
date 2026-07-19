@@ -226,7 +226,7 @@ function Index() {
       `}</style>
 
       {/* NAV */}
-      <nav className="cgq-nav navbar navbar-expand-lg fixed-top">
+      <nav className="cgq-nav navbar navbar-expand-md fixed-top">
         <div className="container">
           <a className="navbar-brand cgq-brand d-flex align-items-center" href="#top">
             <span className="cgq-brand-dot" />
