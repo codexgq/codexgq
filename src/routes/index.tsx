@@ -60,6 +60,12 @@ function Index() {
           background: rgba(255,255,255,0.75);
           border-bottom: 1px solid rgba(11,18,32,0.06);
         }
+        /* Tailwind's .collapse utility conflicts with Bootstrap's component class; force visible when expanded. */
+        .cgq-nav .navbar-collapse,
+        .cgq-nav .navbar-collapse .nav-link,
+        .cgq-nav .navbar-collapse .btn {
+          visibility: visible !important;
+        }
         .cgq-brand {
           font-family: 'Space Grotesk', sans-serif;
           font-weight: 700;
