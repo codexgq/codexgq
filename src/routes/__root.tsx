@@ -77,21 +77,39 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "codexgq, Inc. — Venture Building & M&A Advisory" },
+      {
+        name: "description",
+        content:
+          "codexgq, Inc. is a digital incubator building liquid AI-assets and SaaS solutions — Venture Building, M&A Advisory, and Exit-Driven Design since 2014.",
+      },
+      { name: "author", content: "codexgq, Inc." },
+      { property: "og:title", content: "codexgq, Inc. — Venture Building & M&A Advisory" },
+      {
+        property: "og:description",
+        content:
+          "Building liquid AI-assets through operational efficiency and technological expertise.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
+      { rel: "stylesheet", href: appCss },
       {
         rel: "stylesheet",
-        href: appCss,
+        href: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css",
+      },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap",
       },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+    ],
+    scripts: [
+      {
+        src: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js",
+        defer: true,
+      },
     ],
   }),
   shellComponent: RootShell,
