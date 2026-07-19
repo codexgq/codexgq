@@ -88,10 +88,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "Building liquid AI-assets through operational efficiency and technological expertise.",
+          "codexgq, Inc. is a digital incubator building liquid AI-assets and SaaS solutions — Venture Building, M&A Advisory, and Exit-Driven Design since 2014.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "codexgq, Inc. — Venture Building & M&A Advisory" },
+      { name: "twitter:description", content: "codexgq, Inc. is a digital incubator building liquid AI-assets and SaaS solutions — Venture Building, M&A Advisory, and Exit-Driven Design since 2014." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/8784a5e8-8d65-4991-acab-72de4f618ea3" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/8784a5e8-8d65-4991-acab-72de4f618ea3" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -103,7 +107,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap",
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
     scripts: [
       {
