@@ -1,7 +1,22 @@
 import { createFileRoute } from "@tanstack/react-router";
 
+const PAGE_URL = "https://codexgq.lovable.app/";
+const META_DESCRIPTION =
+  "codexgq, Inc. is a venture builder and M&A advisor creating liquid AI-assets and SaaS solutions engineered for Tier-1 corporate integration since 2014.";
+
 export const Route = createFileRoute("/")({
   component: Index,
+  head: () => ({
+    meta: [
+      { title: "codexgq, Inc. — Venture Building & M&A Advisory" },
+      { name: "description", content: META_DESCRIPTION },
+      { property: "og:title", content: "codexgq, Inc. — Venture Building & M&A Advisory" },
+      { property: "og:description", content: META_DESCRIPTION },
+      { property: "og:url", content: PAGE_URL },
+      { property: "og:type", content: "website" },
+    ],
+    links: [{ rel: "canonical", href: PAGE_URL }],
+  }),
 });
 
 function Index() {
