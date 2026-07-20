@@ -176,7 +176,7 @@ function Index() {
           border-color: rgba(255,85,51,0.25);
         }
         .btn-cgq-icon.cgq-lovable svg {
-          transform: rotate(-12deg);
+          transform: rotate(22deg);
         }
         .btn-cgq-icon.cgq-lovable:hover { box-shadow: 0 16px 32px -10px rgba(255,85,51,0.35); }
 
