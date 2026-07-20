@@ -312,7 +312,19 @@ function Index() {
                 </div>
                 <div className="col-6">
                   <div className="cgq-stat-card">
-                    <div className="cgq-stat-value">2</div>
+                    <div className="cgq-stat-value">$2B</div>
+                    <div className="cgq-stat-label">Fundraising experience</div>
+                  </div>
+                </div>
+                <div className="col-6">
+                  <div className="cgq-stat-card">
+                    <div className="cgq-stat-value">30</div>
+                    <div className="cgq-stat-label">Jurisdictions</div>
+                  </div>
+                </div>
+                <div className="col-6">
+                  <div className="cgq-stat-card">
+                    <div className="cgq-stat-value">3</div>
                     <div className="cgq-stat-label">Continents</div>
                   </div>
                 </div>
