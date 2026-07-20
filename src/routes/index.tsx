@@ -172,12 +172,14 @@ function Index() {
         .btn-cgq-icon.cgq-linkedin { color: #0a66c2; background: rgba(10,102,194,0.08); border-color: rgba(10,102,194,0.25); }
         .btn-cgq-icon.cgq-github { color: #0b1220; background: #f3f4f6; border-color: #d1d5db; }
         .btn-cgq-icon.cgq-lovable {
-          background: linear-gradient(135deg, #ff6b9d 0%, #ff5533 100%);
-          border-color: transparent;
-          color: white;
-          box-shadow: 0 10px 24px -10px rgba(255,85,51,0.55);
+          background: #fff5f2;
+          border-color: rgba(255,85,51,0.25);
         }
-        .btn-cgq-icon.cgq-lovable:hover { box-shadow: 0 16px 32px -10px rgba(255,85,51,0.75); }
+        .btn-cgq-icon.cgq-lovable svg {
+          transform: rotate(-12deg);
+        }
+        .btn-cgq-icon.cgq-lovable:hover { box-shadow: 0 16px 32px -10px rgba(255,85,51,0.35); }
+
         .cgq-stat-card {
           background: white;
           border: 1px solid #e6eaf2;
@@ -518,9 +520,16 @@ function Index() {
               </a>
               <a href="https://lovable.dev/@codexgq" target="_blank" rel="noreferrer" className="btn-cgq-icon cgq-lovable" aria-label="Lovable">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                  <defs>
+                    <linearGradient id="lovableGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stopColor="#ff6b9d" />
+                      <stop offset="100%" stopColor="#ff5533" />
+                    </linearGradient>
+                  </defs>
+                  <path fill="url(#lovableGradient)" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
                 </svg>
               </a>
+
             </div>
           </div>
         </div>
