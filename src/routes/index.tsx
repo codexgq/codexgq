@@ -148,27 +148,36 @@ function Index() {
         }
         .btn-cgq-ghost:hover { border-color: #0b1220; }
         .btn-cgq-icon {
-          width: 48px;
-          height: 48px;
+          width: 64px;
+          height: 64px;
           display: inline-flex;
           align-items: center;
           justify-content: center;
-          border-radius: 12px;
+          border-radius: 16px;
           background: white;
           border: 1px solid #e2e8f0;
           color: #0b1220;
           transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
         }
         .btn-cgq-icon:hover {
-          transform: translateY(-2px);
-          border-color: #0b1220;
-          box-shadow: 0 10px 25px -10px rgba(11,18,32,0.12);
+          transform: translateY(-3px);
+          box-shadow: 0 14px 30px -10px rgba(11,18,32,0.2);
         }
         .btn-cgq-icon svg {
-          width: 22px;
-          height: 22px;
+          width: 32px;
+          height: 32px;
           fill: currentColor;
         }
+        .btn-cgq-icon.cgq-email { color: #4f46e5; background: rgba(99,102,241,0.08); border-color: rgba(99,102,241,0.25); }
+        .btn-cgq-icon.cgq-linkedin { color: #0a66c2; background: rgba(10,102,194,0.08); border-color: rgba(10,102,194,0.25); }
+        .btn-cgq-icon.cgq-github { color: #0b1220; background: #f3f4f6; border-color: #d1d5db; }
+        .btn-cgq-icon.cgq-lovable {
+          background: linear-gradient(135deg, #ff6b9d 0%, #ff5533 100%);
+          border-color: transparent;
+          color: white;
+          box-shadow: 0 10px 24px -10px rgba(255,85,51,0.55);
+        }
+        .btn-cgq-icon.cgq-lovable:hover { box-shadow: 0 16px 32px -10px rgba(255,85,51,0.75); }
         .cgq-stat-card {
           background: white;
           border: 1px solid #e6eaf2;
