@@ -172,12 +172,14 @@ function Index() {
         .btn-cgq-icon.cgq-linkedin { color: #0a66c2; background: rgba(10,102,194,0.08); border-color: rgba(10,102,194,0.25); }
         .btn-cgq-icon.cgq-github { color: #0b1220; background: #f3f4f6; border-color: #d1d5db; }
         .btn-cgq-icon.cgq-lovable {
-          background: linear-gradient(135deg, #ff6b9d 0%, #ff5533 100%);
-          border-color: transparent;
-          color: white;
-          box-shadow: 0 10px 24px -10px rgba(255,85,51,0.55);
+          background: #fff5f2;
+          border-color: rgba(255,85,51,0.25);
         }
-        .btn-cgq-icon.cgq-lovable:hover { box-shadow: 0 16px 32px -10px rgba(255,85,51,0.75); }
+        .btn-cgq-icon.cgq-lovable svg {
+          transform: rotate(-12deg);
+        }
+        .btn-cgq-icon.cgq-lovable:hover { box-shadow: 0 16px 32px -10px rgba(255,85,51,0.35); }
+
         .cgq-stat-card {
           background: white;
           border: 1px solid #e6eaf2;
