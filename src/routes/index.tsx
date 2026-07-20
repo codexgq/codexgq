@@ -147,6 +147,28 @@ function Index() {
           border-radius: 12px;
         }
         .btn-cgq-ghost:hover { border-color: #0b1220; }
+        .btn-cgq-icon {
+          width: 48px;
+          height: 48px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 12px;
+          background: white;
+          border: 1px solid #e2e8f0;
+          color: #0b1220;
+          transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+        }
+        .btn-cgq-icon:hover {
+          transform: translateY(-2px);
+          border-color: #0b1220;
+          box-shadow: 0 10px 25px -10px rgba(11,18,32,0.12);
+        }
+        .btn-cgq-icon svg {
+          width: 22px;
+          height: 22px;
+          fill: currentColor;
+        }
         .cgq-stat-card {
           background: white;
           border: 1px solid #e6eaf2;
