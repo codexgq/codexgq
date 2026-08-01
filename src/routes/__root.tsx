@@ -84,6 +84,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "codexgq, Inc. is a digital incubator building liquid AI-assets and SaaS solutions — Venture Building, M&A Advisory, and Exit-Driven Design since 2014.",
       },
       { name: "author", content: "codexgq, Inc." },
+      {
+        name: "google-site-verification",
+        content: "XqDOvDT94sl5cGRB2CLmhasVlIDcUmv_6OKIXAQ-cF8",
+      },
       { property: "og:title", content: "codexgq, Inc. — Venture Building & M&A Advisory" },
       {
         property: "og:description",
