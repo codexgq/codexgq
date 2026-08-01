@@ -172,13 +172,13 @@ function Index() {
         .btn-cgq-icon.cgq-linkedin { color: #0a66c2; background: rgba(10,102,194,0.08); border-color: rgba(10,102,194,0.25); }
         .btn-cgq-icon.cgq-github { color: #0b1220; background: #f3f4f6; border-color: #d1d5db; }
         .btn-cgq-icon.cgq-lovable {
-          background: #fff5f2;
-          border-color: rgba(255,85,51,0.25);
+          background: linear-gradient(135deg, rgba(255,142,99,0.08), rgba(75,115,255,0.08));
+          border-color: rgba(75,115,255,0.25);
         }
         .btn-cgq-icon.cgq-lovable svg {
           transform: rotate(45deg);
         }
-        .btn-cgq-icon.cgq-lovable:hover { box-shadow: 0 16px 32px -10px rgba(255,85,51,0.35); }
+        .btn-cgq-icon.cgq-lovable:hover { box-shadow: 0 16px 32px -10px rgba(75,115,255,0.35); }
 
         .cgq-stat-card {
           background: white;
