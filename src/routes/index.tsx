@@ -30,6 +30,7 @@ export const Route = createFileRoute("/")({
       { property: "og:description", content: META_DESCRIPTION },
       { property: "og:url", content: PAGE_URL },
       { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [{ rel: "canonical", href: PAGE_URL }],
     scripts: [
@@ -471,7 +472,7 @@ function Index() {
                 Founded in 2014, codexgq, Inc. operates as a digital incubator and venture builder across B2B, B2C, and B2G sectors — with a focus on SaaS and AI.
               </p>
               <p className="text-secondary">
-                Headquartered in Russia with a presence in the Netherlands, we work with founders, operators, and corporate partners to build businesses that are engineered for scale and structured for exit.
+                Headquartered in the Netherlands with a presence in Russia, we work with founders, operators, and corporate partners to build businesses that are engineered for scale and structured for exit.
               </p>
             </div>
             <div className="col-lg-6">
