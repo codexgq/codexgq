@@ -18,6 +18,13 @@ const ORGANATION_SCHEMA = {
   ],
   foundingDate: "2014",
   areaServed: ["Worldwide", "Netherlands", "Russia"],
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Delflandlaan 1",
+    postalCode: "1062 HP",
+    addressLocality: "Amsterdam",
+    addressCountry: "NL",
+  },
 };
 
 export const Route = createFileRoute("/")({
