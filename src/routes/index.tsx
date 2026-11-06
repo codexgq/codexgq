@@ -484,7 +484,7 @@ function Index() {
                   <div className="cgq-stat-card"><div className="cgq-stat-label">Industry</div><div className="fw-semibold mt-1">IT Services &amp; Consulting</div></div>
                 </div>
                 <div className="col-6">
-                  <div className="cgq-stat-card"><div className="cgq-stat-label">Headquarters</div><div className="fw-semibold mt-1">Russia · Netherlands</div></div>
+                  <div className="cgq-stat-card"><div className="cgq-stat-label">Headquarters</div><div className="fw-semibold mt-1">Netherlands · Russia</div></div>
                 </div>
                 <div className="col-6">
                   <div className="cgq-stat-card"><div className="cgq-stat-label">Focus</div><div className="fw-semibold mt-1">SaaS · AI · M&amp;A</div></div>
