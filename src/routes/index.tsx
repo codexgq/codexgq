@@ -544,7 +544,7 @@ function Index() {
             <span className="cgq-brand-dot" />
             <span className="cgq-brand">codexgq, Inc.</span>
           </div>
-          <div>© {new Date().getFullYear()} codexgq, Inc. — Venture Building &amp; M&amp;A Advisory</div>
+          <div>© {new Date().getFullYear()} <a href="https://codexgq.lovable.app/">codexgq, Inc.</a> — Venture Building &amp; M&amp;A Advisory</div>
           <div className="d-flex gap-3">
             <a href="https://github.com/codexgq" target="_blank" rel="noreferrer">GitHub</a>
             <a href="https://www.linkedin.com/company/codexgq/" target="_blank" rel="noreferrer">LinkedIn</a>
