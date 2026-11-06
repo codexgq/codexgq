@@ -17,7 +17,7 @@ const ORGANATION_SCHEMA = {
     "https://github.com/codexgq",
   ],
   foundingDate: "2014",
-  areaServed: ["Russia", "Netherlands"],
+  areaServed: ["Worldwide", "Netherlands", "Russia"],
 };
 
 export const Route = createFileRoute("/")({
