@@ -21,7 +21,7 @@ const ORGANATION_SCHEMA = {
   address: {
     "@type": "PostalAddress",
     streetAddress: "Wilhelmina Tower, Delflandlaan 1",
-    postalCode: "1062 HP",
+    postalCode: "1062 EA",
     addressLocality: "Amsterdam",
     addressCountry: "NL",
   },
